@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jessica 名片</title>
+    <style>
+        body {
+            background: #f5f7fa;
+            font-family: 'Segoe UI', '微軟正黑體', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            display: flex;
+            width: 500px;
+            height: 250px;
+            background: #fff;
+            border-radius: 24px;
+            box-shadow: 0 8px 32px rgba(60, 60, 120, 0.15);
+            overflow: hidden;
+        }
+        .card-left {
+            background: linear-gradient(135deg, #7f53ac 0%, #647dee 100%);
+            width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 0;
+            clip-path: polygon(
+                25% 5%, 75% 5%,
+                100% 50%,
+                75% 95%, 25% 95%,
+                0% 50%
+            );
+            overflow: hidden;
+            border: 5px solid #fff;
+            box-shadow: 0 4px 16px rgba(127,83,172,0.2);
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            /* 六邊形遮罩可保留或移除，已由父層 avatar 控制 */
+        }
+        .card-right {
+            width: 50%;
+            padding: 32px 28px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: #333;
+            align-items: center;
+            text-align: center;
+        }
+        .name {
+            font-size: 2rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 8px;
+            color: #7f53ac;
+        }
+        .title {
+            font-size: 1.1rem;
+            color: #647dee;
+            margin-bottom: 16px;
+            font-weight: 500;
+        }
+        .info {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: #444;
+        }
+        .name, .title, .info {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-left">
+            <div class="avatar">
+                <img src="jessica.JPG" alt="Jessica">
+            </div>
+        </div>
+        <div class="card-right">
+            <div class="name">莊捷羽</div>
+            <div class="title">前端設計師</div>
+            <div class="info">
+                國北教 藝術與造型設計學系<br>
+                
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
