@@ -11,24 +11,29 @@
         header { background: #3498db; color: #fff; padding: 1rem; text-align: center; }
         nav { background: #2980b9; padding: 0.5rem; text-align: center; }
         nav a { color: #fff; margin: 0 1rem; text-decoration: none; font-weight: bold; }
-        main { padding: 2rem; background: #fff; max-width: 800px; margin: 2rem auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        main { padding: 2rem; background: #fff; margin: 2rem auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
         footer { background: #222; color: #fff; text-align: center; padding: 1rem; position: fixed; width: 100%; bottom: 0; }
+        .container { display: flex; gap: 2rem; align-items: flex-start; max-width: 1000px; margin: 2rem auto; padding: 2rem; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .poem { flex: 1; line-height: 1.8; font-size: 1.1rem; }
+        .poem-image { flex: 1; }
+        .poem-image img { max-width: 100%; height: auto; border-radius: 8px; }
     </style>
 </head>
 <body>
-    
+    <header>
         <h1>唐詩三百首</h1>
-     元稹《行宮》 <br>
-     寥落古行宮，宮花寂寞紅。<br>
-     白頭宮女在，閒坐說玄宗。
+    </header>
+    
+    <div class="container">
+        <div class="poem">
+            <h2>元稹《行宮》</h2>
+            <p>寥落古行宮，宮花寂寞紅。<br>
+            白頭宮女在，閒坐說玄宗。</p>
+        </div>
+        <div class="poem-image">
+            <img src="pic1.jpg" alt="行宮">
+        </div>
+    </div>
     
 </body>
 </html>
-<!-- 無需新增內容，您的頁面已經是一個基本的網頁範例 -->
-<table border="1" ">
-    <tr>
-        <td>寥落古行宮，宮花寂寞紅。
-            白頭宮女在，閒坐說玄宗。</td>
-        <td><img src="pic1.png" td>
-    </tr>
-</table>
