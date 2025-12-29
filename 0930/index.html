@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>唐詩三百首
-
-    </title>
+    <title>唐詩三百首</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
-        header { background: #3498db; color: #fff; padding: 1rem; text-align: center; }
-        nav { background: #2980b9; padding: 0.5rem; text-align: center; }
-        nav a { color: #fff; margin: 0 1rem; text-decoration: none; font-weight: bold; }
-        main { padding: 2rem; background: #fff; margin: 2rem auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-        footer { background: #222; color: #fff; text-align: center; padding: 1rem; position: fixed; width: 100%; bottom: 0; }
-        .container { display: flex; gap: 2rem; align-items: flex-start; max-width: 1000px; margin: 2rem auto; padding: 2rem; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        body { font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; }
+        header { background: #333; color: #fff; padding: 1rem; text-align: center; border-bottom: 4px solid #d32f2f; }
+        header h1 { color: #ff6b6b; margin: 0; }
+        .container { display: flex; gap: 2rem; align-items: flex-start; max-width: 1000px; margin: 2rem auto; padding: 2rem; background: #fff; border-radius: 8px; border-left: 4px solid #d32f2f; min-height: 300px; }
         .poem { flex: 1; line-height: 1.8; font-size: 1.1rem; }
+        .poem h2 { color: #d32f2f; }
         .poem-image { flex: 1; }
-        .poem-image img { max-width: 100%; height: auto; border-radius: 8px; }
     </style>
 </head>
 <body>
     <header>
         <h1>唐詩三百首</h1>
+        <style>
+            .poem-image img { max-width: 50%; height: auto; border-radius: 8px; }
+        </style>
     </header>
-    
-    <div class="container">
-        <div class="poem">
+    <div class="container" style="justify-content: center;">
+        <div class="poem" style="text-align: center;">
             <h2>元稹《行宮》</h2>
-            <p>寥落古行宮，宮花寂寞紅。<br>
+            <p style="text-align: center;">寥落古行宮，宮花寂寞紅。<br>
             白頭宮女在，閒坐說玄宗。</p>
         </div>
         <div class="poem-image">
-            <img src="pic1.jpg" alt="行宮">
+            <img src="pic25.jpeg" alt="行宮">
+        </div>
+    </div>
+     <div class="container" style="justify-content: center;">
+        <div class="poem" style="text-align: center;">
+            <h2>王建《新嫁娘》</h2>
+            <p style="text-align: center;">三日入廚下，洗手做羹湯。<br>
+                未諳姑食性，先遣小姑嘗。</p>
+        </div>
+        <div class="poem-image">
+            <img src="pic26.jpeg" alt="新嫁娘">
         </div>
     </div>
     

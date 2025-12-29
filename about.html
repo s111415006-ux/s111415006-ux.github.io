@@ -33,23 +33,48 @@
     </nav>
     <main class="container py-5">
       <div class="row align-items-center">
-        <div class="col-md-7 mb-4 mb-md-0">
-          <h1 class="mb-4">自我介紹</h1>
-          <p>你好，我是莊捷羽（學號 111415006）。這裡放置自我介紹文字、學經歷與技能等資訊。</p>
-          <h3 class="mt-4">技能</h3>
-          <ul>
-            <li>HTML / CSS / JavaScript</li>
-            <li>Bootstrap</li>
-            <li>前端設計與排版</li>
-          </ul>
-          <h3 class="mt-4">學歷</h3>
-          <p>示範文字：在此描述學校與科系。</p>
-        </div>
-        <div class="col-md-5 text-center">
-          <img src="me.JPG" alt="自我介紹圖片" class="about-img">
-        </div>
+      <div class="col-md-7 mb-4 mb-md-0">
+        <h1 class="mb-4" style="animation: fadeInUp 0.6s ease-out;">自我介紹</h1>
+        <p class="mb-3" style="animation: fadeInUp 0.6s ease-out 0.1s both;">我是莊捷羽，大家都叫我小莊或是小捷，我覺得這個小名很可愛，我很喜歡。我住在不是本島的地區，可以先猜一下，無獎徵答，答案是金門，傳說中水龍頭打開都是高粱酒的小島。如果要說金門有趣的地方，我覺得是有很多隱藏的咖啡店，我利用高三的暑假去探了好幾間店，都非常有質感！</p>
+
+        <p class="mb-3" style="animation: fadeInUp 0.6s ease-out 0.2s both;">我很喜歡把生活填得滿滿的，參加一大堆活動、接幹部、畫畫等等的，我不喜歡整天都沒有事情做，生活就是要過得精彩，過得充實，待在家裡滑一天的手機，我真的受不了！想要花時間在精進自己、學習新技能，了解更多事物。</p>
+
+        <p class="mb-3" style="animation: fadeInUp 0.6s ease-out 0.3s both;">我的興趣是做一些立體的東西，或是運用不同媒材創作出一個作品，雖然過程會花很多時間，但在做作品的當下，我是非常非常享受的，我覺得那是屬於我自己的時間，可以讓自己好好放鬆下來。閒暇時間就是出去玩，吃美食、逛街、看電影、探店、拍照，喔喔！我還有一個夢想，就是能夠環遊世界，到不同的地方看看，享受不同國家的美，如果有很好的朋友一起去的話，我會很開心！</p>
+
+        <h3 class="mt-5 mb-3" style="animation: fadeInUp 0.6s ease-out 0.4s both;">學歷</h3>
+        <ul class="list-unstyled" style="animation: fadeInUp 0.6s ease-out 0.5s both;">
+        <li>國立金門高級中學</li>
+        <li>國立台北教育大學</li>
+        </ul>
+      </div>
+      <div class="col-md-5 text-center">
+        <img src="pic9.JPG" alt="自我介紹圖片" class="about-img" style="animation: fadeInScale 0.8s ease-out;">
+      </div>
       </div>
     </main>
+
+    <style>
+      @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      }
+      @keyframes fadeInScale {
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+      }
+    </style>
     <!-- Footer (複製自 index.html) -->
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
       <symbol id="bootstrap" viewBox="0 0 118 94">...</symbol>
